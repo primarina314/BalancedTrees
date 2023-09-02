@@ -10,6 +10,9 @@ It's implemented by c++
 > g++ -o main main.cpp
 
 I confirmed that no memory leak occurred using the following command.
-valgrind --leak-check=yes ./main
-valgrind --leak-check=yes --leak-check=full --show-leak-kinds=all ./main
+> valgrind --leak-check=yes ./main
+
+> valgrind --leak-check=yes --leak-check=full --show-leak-kinds=all ./main
+
+
 Thank you.
